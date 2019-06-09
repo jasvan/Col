@@ -7,4 +7,9 @@
 ### git commit toma la los archivos que estavan en la zona de preparacion y los guarda en un punto en la historia, o hace una copia inmediata de nuestros archivos.
 
 ### git log muestra todos los commits echos hasta el momento.
-### git diff muestra los cambios echos en los archivos de los que estavan en commit en compartiva a los que tofavis no estan confirmados. 
+### git diff muestra los cambios echos en los archivos de los que estavan en commit en compartiva a los que tofavis no estan confirmados.
+
+### Zonaas de git, o notas de la clase.
+Zona 1 Directorio de trabajo
+Zona 2 Area de preparacion
+Zona 3 Directorio git
