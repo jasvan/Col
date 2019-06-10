@@ -27,11 +27,30 @@ Zona 3 Directorio git
 
 '--graph:' añade un pequeño grafico asccii, mostrando el historial de ramificaciones y unoines.
 
-ejemplo git log --oneline otro git log --graph otro git log --oneline -- ggraph. 
+ejemplo git log --oneline otro git log --graph otro git log --oneline -- ggraph.
 
 ### git log -2 por ejemplo muestra los dos ultimos commits que se hicieron
 ## git log --help muestra todas las opciones relacionadas a it log que se puese usar.
 ### git log --after="fecha y hora": muestra los commits echos depues de esa fecha, como tambien se puede mostrar los commits echos del dia de hoy.
 ejemplo git log --after="11:42:35 2019"
 
+###clase tres:  haciendo uso del comando git commit --amend nos sirve para agregar nuevos archivos al commit que ya estaba creado, en el caso de que se presentara la ocacion de hacerlo o de cumplir con una tarea dieria de un proyecto.
 
+### restaurar un archivo a la vercion anterior
+el procedimiento lo hace el comando git checkout. Este es un comando peligroso cualquier cambio que se le haya echo al archivo desaparecera, nunca utilice este comando a menos que se este seguro de eliminar los cambios del archivo.
+
+### git log --decorate --all, sirve para mostrar todos los commits realizados y las ramas que tiene los commits
+
+### git checkout y el hash del commit nos sirve para regresar ene el tiempo hacia a tras y deshacer los cambios actuales.
+
+#### git checkout master sirve para devolvernos al futuro al punto de partida y restaurar los cambios antes eliminados.
+
+### Clase 4: git tagv1.1 etiquetas ligeras, una etiqueta ligera no es mas que un checksum de un commit guardado en un archivo, no incluye mas informacion para crear una etiqueta lijera no pasamos las opciones -a, -s, ni -m. ejemplo " git tag mi-etiqueta" este tag se agrega automaticamente al commit mas reciente que ya esta elavorado.
+
+### git tag con anotaciones: git tag -a v1.0-m 'mi vecion 1.0', Se guardan en la base de datos de git como obgetos enteros. tienen un checksum; contiene el nombre del etiquetador, correo electronico y fecha; y tiene un mensaje anotado. no se admiten espacions en blanco.
+ejemplo  git tag -a v1.0 -m "Primera vercion estable"
+
+### git sow mi-etiqueta, muestra la informacion que esta relacionada con el commit que reprecenta este tag. tambien se puede componer asi git tag f876sd y el hash del commit.
+
+### git log decorate muestra la informacion entre parentesis de la cabeceras o ramas
+ademas git tag lista las etiquetas en orden alfabetico. 
