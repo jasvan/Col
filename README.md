@@ -31,3 +31,5 @@ ejemplo git log --oneline otro git log --graph otro git log --oneline -- ggraph.
 
 ### git log -2 por ejemplo muestra los dos ultimos commits que se hicieron
 ## git log --help muestra todas las opciones relacionadas a it log que se puese usar.
+### git log --after="fecha y hora": muestra los commits echos depues de esa fecha, como tambien se puede mostrar los commits echos del dia de hoy.
+ejemplo git log --after="11:42:35 2019"
