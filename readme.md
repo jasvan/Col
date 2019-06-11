@@ -80,3 +80,5 @@ git log --decorate --oneline --all --graph, muestra la bifurcacion de lara ramas
 #### clase 7 fuciones: usamos el comendo git merge, permite incorporar una rama a la rama principal,
 
 ### para eliminar una rama utilizamos git branch -d universo3
+
+# los nuevos cambios realizados  
