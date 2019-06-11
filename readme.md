@@ -65,6 +65,7 @@ ademas git tag lista las etiquetas en orden alfabetico.
 
 ### git checkout testing, en el anterior comando solo se creo la nueva rama pero head sigue puntando a master con git checkout testing movemos o remplazamos head por testing o a la nueva rama.
 
+<<<<<<< HEAD
 ### git branch es un apuntador movil apuntando a uno de los commits.
 #### se puede crear todas las ramas que se necesite o quiera.
 
@@ -82,3 +83,25 @@ git log --decorate --oneline --all --graph, muestra la bifurcacion de lara ramas
 ### para eliminar una rama utilizamos git branch -d universo3
 
 # los nuevos cambios realizados  
+=======
+###practicando el cambio de rama en git.
+
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+### creacion de una rama de git agregando nuevos commits a la rama testing.
+€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
+>>>>>>> universo3
