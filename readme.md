@@ -64,3 +64,5 @@ ademas git tag lista las etiquetas en orden alfabetico.
 #### clase 6: creando nuevas ramas, para crear una nueva rama se usa el comando git branch testing: donde testing es el nombre de la nueva rama.
 
 ### git checkout testing, en el anterior comando solo se creo la nueva rama pero head sigue puntando a master con git checkout testing movemos o remplazamos head por testing o a la nueva rama.
+
+###practicando el cambio de rama en git.
