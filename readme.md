@@ -53,4 +53,30 @@ ejemplo  git tag -a v1.0 -m "Primera vercion estable"
 ### git sow mi-etiqueta, muestra la informacion que esta relacionada con el commit que reprecenta este tag. tambien se puede componer asi git tag f876sd y el hash del commit.
 
 ### git log decorate muestra la informacion entre parentesis de la cabeceras o ramas
-ademas git tag lista las etiquetas en orden alfabetico. 
+ademas git tag lista las etiquetas en orden alfabetico.
+
+### git tag -l "v1.*": lista las etiquetas que coinsidan con ese patron de busqueda.
+
+#### podemos hacer git checkout a una etiqueta y tambien sirve como si se hiciera a un comit sirve de la misma forma.
+
+###git log --decorate --all, mustra todos los archivos del directorio git sin inportar que que punto de la historia este pocicionado.
+
+#### clase 6: creando nuevas ramas, para crear una nueva rama se usa el comando git branch testing: donde testing es el nombre de la nueva rama.
+
+### git checkout testing, en el anterior comando solo se creo la nueva rama pero head sigue puntando a master con git checkout testing movemos o remplazamos head por testing o a la nueva rama.
+
+### git branch es un apuntador movil apuntando a uno de los commits.
+#### se puede crear todas las ramas que se necesite o quiera.
+
+## las ramas que se pueden crear con los apuntadores tienen como finalidad dar una rama a cada caracteristica en el desarrollo de un proyecto, cada quien cunado realiza cambios en los archivos puede hacer uso de su rama para crear un commit y asi no interumpir o intervenir en los commits que crean otros desarroladores,
+
+### git commit -am ó con git commit -a -m: conste comando podemos saltar el area de preparación
+
+git log --decorate --oneline --all --graph, muestra la bifurcacion de lara ramas.
+
+### git branch -v sirve para mostrar los ultimos commits creados por cada rama.
+
+
+#### clase 7 fuciones: usamos el comendo git merge, permite incorporar una rama a la rama principal,
+
+### para eliminar una rama utilizamos git branch -d universo3
