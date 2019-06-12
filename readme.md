@@ -86,22 +86,4 @@ git log --decorate --oneline --all --graph, muestra la bifurcacion de lara ramas
 =======
 ###practicando el cambio de rama en git.
 
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
-### creacion de una rama de git agregando nuevos commits a la rama testing.
-€ he creado una nueva rama llamda universo3 y hago estos nuevas lineas de tenxto para  crear una nuevo commit.
->>>>>>> universo3
+### git remote add origin https://github.com/jasvan/Col.git, con este comenso vinculamos nuestro repositorio local con github
